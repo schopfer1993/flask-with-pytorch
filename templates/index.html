@@ -2,7 +2,11 @@
 {% import 'bootstrap/wtf.html' as wtf%}
 
 {% block page_content %}
-{{ wtf.quick_form(form) }}
-{{file_url}}
+<section>
+    {% if file_url %}
+        <img src="{{file_url}}" alt="uploaded photo">
+    {% endif %}
+    {{ wtf.quick_form(form) }}
+</section>
 {% endblock %}
 

@@ -29,7 +29,7 @@ def index():
     form = UploadForm()
     if form.validate_on_submit():
         filename = photos.save(form.photo.data)
-        session['file_url'] = file_url = photos.url(filename)
+        session['file_url'] = photos.url(filename)
         return redirect(url_for('index'))
     return render_template('index.html', form=form, file_url=session.get('file_url'))
 

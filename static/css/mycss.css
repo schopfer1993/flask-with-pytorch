@@ -19,6 +19,12 @@ header[role="banner"] #logo-main {
   padding-right: 30px;
 }
 
-section.container-fluid{
-  text-align: center;  
+#page_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img{
+  width: 30rem;
 }
