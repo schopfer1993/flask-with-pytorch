@@ -12,11 +12,11 @@ import os
 from torchvision import models
 import torchvision.transforms as transforms
 from PIL import Image
-import ssl
+# import ssl
 
 import ipdb
 
-ssl._create_default_https_context = ssl._create_unverified_context
+# ssl._create_default_https_context = ssl._create_unverified_context
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
