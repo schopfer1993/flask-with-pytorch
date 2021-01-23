@@ -6,7 +6,12 @@
     {% if file_url %}
         <img src="{{file_url}}" alt="uploaded photo">
     {% endif %}
+
     {{ wtf.quick_form(form) }}
+
+    {% if class_name %}
+        <h1>{{ class_name }}</h1>
+    {% endif %}
 </section>
 {% endblock %}
 
