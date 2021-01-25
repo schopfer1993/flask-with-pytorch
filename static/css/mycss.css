@@ -28,3 +28,7 @@ header[role="banner"] #logo-main {
 img{
   width: 30rem;
 }
+
+span{
+  color: rgb(255, 0, 128);
+}
