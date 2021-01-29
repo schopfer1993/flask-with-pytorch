@@ -1,4 +1,6 @@
-venv
-static/uploads/*
-myssh
-myssh.pub
+/venv
+/app/static/uploads/**
+/myssh
+/myssh.pub
+**/__pycache__
+**/.DS_Store

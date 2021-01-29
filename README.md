@@ -5,7 +5,7 @@ The Neural network I used is DenseNet 121.
 # Installation.
 ```
 pip install -r requirements.txt
-export FLASK_APP=review.py
+export FLASK_APP=flasky.py
 flask run
 ```
 # Example.
